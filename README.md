@@ -21,6 +21,7 @@ Install FIG
 sudo pip install -U fig
 ```
 
+Install simulator sensor
 
 ```
 git clone https://github.com/mgarciap/iot-sensor-simulator.git
