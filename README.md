@@ -26,6 +26,7 @@ Install simulator sensor
 ```
 git clone https://github.com/mgarciap/iot-sensor-simulator.git
 cd iot-sensor-simulator
+cp docker-compose.yml fig.yml 
 fig up
 ```
 
@@ -35,3 +36,8 @@ You can also check out Node red: <you container ip>:1880
 
 
 [1] Still didn't migrated to Docker Compese, sorry. It is almost the same
+fig up的本质其实就是docker compose。所以上面使用命令
+```
+cp docker-compose.yml fig.yml 
+
+```
