@@ -15,7 +15,12 @@ There are two alternatives
 
 ## Easy one
 
-Install FIG following instructions in www.fig.sh
+Install FIG 
+
+```
+sudo pip install -U fig
+```
+
 
 ```
 git clone https://github.com/mgarciap/iot-sensor-simulator.git
